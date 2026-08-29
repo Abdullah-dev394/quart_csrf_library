@@ -118,7 +118,7 @@ class CSRFProtect:
                     )
 
                 if "<form" in data_str.lower():
-                    if 'name="csrf_token"' not in data_str:
+                    
                         hidden_input = (
                             f'<input type="hidden" name="csrf_token" value="{token}">'
                         )
