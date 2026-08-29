@@ -12,8 +12,10 @@ A lightweight, secure, and asynchronous CSRF protection extension for [Quart](ht
 
 ## Installation
 
+You can install this library directly from GitHub using `pip`:
+
 ```bash
-pip install quart-csrf
+pip install "git+[https://github.com/Abdullah-dev394/quart_csrf_library.git#subdirectory=quart-csrf](https://github.com/Abdullah-dev394/quart_csrf_library.git#subdirectory=quart-csrf)"
 ```
 
 ## Quick Start
